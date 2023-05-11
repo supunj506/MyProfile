@@ -1,0 +1,69 @@
+/*
+    * @author : Supun Jaysinghe
+    * Date    : 11 March 2023
+    * Time    : 10:08 AM
+    * Project : MyProfile
+    * Created by IntelliJ IDEA.
+*/
+*{
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: black;
+    color: white;
+    margin: 0;
+    position: relative;
+}
+
+/*header content */
+body header{
+    width: 100%;
+    height: 100vh;
+    background-image:url("asset/image/homepageBackground.png") ;
+    background-size: cover;
+    background-position: center;
+
+
+}
+header nav img{
+    width: 200px;
+    margin: 7px 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+}
+header nav ul{
+    margin: 0;
+    padding-right: 80px;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 20px 30px;
+
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+header nav ul li a::after{
+   content: '';
+    width: 0;
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+header nav ul li a:hover::after{
+    width: 100%;
+}
+
+/*home page content*/
+
