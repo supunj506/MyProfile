@@ -110,9 +110,12 @@ header>section>nav>ul>li{
     height: 100vh;
     background-position: center;
 }
-#aboutMePage>section{
+
+/*about me page upper section*/
+#aboutMePageUp{
     display: flex;
     justify-content: space-between;
+    height: 40vh;
 }
 #aboutMePage>p{
     font-size: 50px;
@@ -123,36 +126,36 @@ header>section>nav>ul>li{
     color: red;
     font-size: 60px;
 }
-#aboutMePage>section>img{
+#aboutMePageUp>img{
     width: 250px;
     margin-left: 70px;
     margin-top: 20px;
     border-radius: 20px;
 }
-#aboutMePage>section>article{
+#aboutMePageUp>article{
     margin: 2px 40px;
 }
-#aboutMePage>section>article>p>abbr{
+#aboutMePageUp>article>p>abbr{
     font-style: normal;
 }
-#aboutMePage>section>article>p>span{
+#aboutMePageUp>article>p>span{
     color: red;
 }
 #aboutMePage>section>article>p{
     font-size: 25px;
 }
-#aboutMePage>section>article>p:last-child{
-    margin-bottom: 40px;
+#upLastPara{
+   margin-bottom: 7px;
 }
 
-#aboutMePage>section>article>div{
+#aboutMePageUp>article>div{
     width: 280px;
     height: 50px;
     background: red;
     border-radius: 13px;
     margin-left: 350px;
 }
-#aboutMePage>section>article>div>a{
+#aboutMePageUp>article>div>a{
 
     font-size: 30px;
     text-decoration: none;
@@ -160,10 +163,49 @@ header>section>nav>ul>li{
     position: absolute;
     padding: 8px 45px;
 }
+
 #aboutMePage>div{
     width: 90%;
     height: 5px;
     background: white;
     margin-left: 5%;
     margin-top: 10px;
+}
+
+/*about me page down section*/
+#aboutMePageDown{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 70px;
+}
+
+#aboutMePageDown>nav>div{
+    display: block;
+    margin: 50px 30px;
+}
+
+#aboutMePageDown>nav>div{
+    width: 200px;
+    height: 50px;
+    background: red;
+    border-radius: 13px;
+
+}
+#aboutMePageDown>nav>div>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    padding: 7px ;
+
+}
+#ampdButton1>a{
+    padding-left: 50px;
+
+}
+#aboutMePageDown>div{
+    width: 80%;
+    height: 46vh;
+    background:#242323 ;
+    border-radius: 20px;
 }
