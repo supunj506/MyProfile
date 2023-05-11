@@ -25,33 +25,37 @@ body header{
 
 
 }
-header nav img{
-    width: 200px;
-    margin: 7px 50px;
+header>nav>img{
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 50px;
+
+
 }
 
-header nav {
+header>nav {
     display: flex;
     justify-content: space-between;
-    margin: 0;
+
 
 }
-header nav ul{
+header>nav>ul{
     margin: 0;
     padding-right: 80px;
+    padding-top: 23px;
 }
-header nav ul li{
+header>nav>ul>li{
     display: inline-block;
     margin: 20px 30px;
 
 }
-header nav ul li a{
+header>nav>ul>li>a{
     color: white;
     text-decoration: none;
     font-size: 18px;
     position: relative;
 }
-header nav ul li a::after{
+header>nav>ul>li>a::after{
    content: '';
     width: 0;
     height: 3px;
@@ -61,9 +65,48 @@ header nav ul li a::after{
     bottom: -6px;
     transition: 0.5s;
 }
-header nav ul li a:hover::after{
+header>nav>ul>li>a:hover::after{
     width: 100%;
 }
 
 /*home page content*/
+.emphasizeText{
+    font-style: normal;
+}
+.homeTextRed{
+    color: red;
+}
 
+header>section>h3{
+    font-weight: normal;
+    margin-top: 130px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+header>section>h1{
+    font-size: 60px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/*navigation Icons*/
+.navigateIcon{
+    width: 100px;
+}
+header>section>nav{
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+header>section>nav>ul{
+    margin: 0;
+    padding: 0;
+}
+header>section>nav>ul>li{
+    display: inline-block;
+    margin: 0 30px;
+
+}
