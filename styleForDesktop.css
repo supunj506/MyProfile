@@ -195,17 +195,132 @@ header>section>nav>ul>li{
     text-decoration: none;
     color: white;
     font-size: 30px;
-    position: absolute;
-    padding: 7px ;
-
 }
-#ampdButton1>a{
-    padding-left: 50px;
-
+#btn1>a{
+    position: absolute;
+    padding: 8px 65px;
+}
+#btn2>a{
+    position: absolute;
+    padding: 8px 33px;
+}
+#btn3>a{
+    position: absolute;
+    padding: 8px  20px;
 }
 #aboutMePageDown>div{
     width: 80%;
     height: 46vh;
     background:#242323 ;
     border-radius: 20px;
+}
+#skillPane{
+    width: 100%;
+    height: 46vh;
+    background:#242323 ;
+    border-radius: 20px;
+    display: flex;
+
+
+}
+#educationPane{
+    width: 100%;
+    height: 46vh;
+    background: white;
+    border-radius: 20px;
+
+}
+#experiensPane{
+    width: 100%;
+    height: 46vh;
+    background: gray;
+    border-radius: 20px;
+
+}
+.vlsPane{
+    width: 49.8%;
+    height: 100%;
+}
+#hr{
+    width: 0.4%;
+    height: 100%;
+    background: white;
+}
+#skillPane>div>div:first-child{
+    width: 100%;
+    height: 35% ;
+}
+#skillPane>div>div:nth-child(2){
+    width: 100%;
+    height: 1.3% ;
+    background: white;
+}
+#skillPane>div>div:last-child{
+    width: 100%;
+    height: 63.7% ;
+}
+
+#skillPane>div>div:first-child>p:first-child{
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: red;
+}
+#skillPane>div>div:first-child>p:last-child{
+    margin: 0;
+    padding: 10px 25px;
+    font-size: 25px;
+
+ }
+#skillPane>div>div:last-child>p:first-child{
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: red;
+}
+
+#webDLP{
+    margin: 0;
+    padding: 10px 25px;
+    font-size: 25px;
+
+}
+#skillPane>div>div:last-child>div{
+    display: flex;
+    margin-left: 30px;
+
+}
+#skillPane>div>div:last-child>div>div{
+
+    display: block;
+}
+#skillPane>div>div:last-child>div>img{
+    width: 80px;
+    margin: 10px 20px;
+}
+#skillPane>div:last-child>p:first-child{
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 30px;
+    color: red;
+}
+#skillLastPane{
+    margin: 0;
+    padding: 10px 25px;
+    font-size: 25px;
+}
+#skillPane>div:last-child>div{
+    display: flex;
+    margin-left: 40px;
+
+
+}
+#skillPane>div:last-child>div>img{
+    width: 80px;
+    height: 80px;
+    padding: 20px 10px;
+
 }
