@@ -396,3 +396,32 @@ header>section>nav>ul>li{
     margin-left: 170px;
     font-size: 25px;
 }
+
+/*experience pane*/
+#experiencesPane{
+    width: 100%;
+    height: 46vh;
+    background: #242323;
+    border-radius: 20px;
+
+}
+
+.redText{
+    color: red;
+}
+.experiencesPaneHrBr{
+    width: 90%;
+    height: 1%;
+    background: white;
+}
+.expHedP{
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.expDetP{
+    margin: 0;
+    padding: 10px 25px;
+    font-size: 25px;
+}
