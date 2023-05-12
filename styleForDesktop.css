@@ -5,6 +5,9 @@
     * Project : MyProfile
     * Created by IntelliJ IDEA.
 */
+/*long->Page -------------------------------------------------------------------------------------------------*/
+/*short->inner page------------------------------------------------*/
+
 *{
     font-family: 'Poppins',sans-serif;
 }
@@ -16,7 +19,7 @@ body{
 }
 
 
-/*header content */
+/*header content----------------------------------------------*/
 body header{
     width: 100%;
     height: 100vh;
@@ -63,7 +66,7 @@ header>nav>ul>li>a:hover::after{
 }
 
 
-/*home page content*/
+/*home page content----------------------------------------------*/
 .emphasizeText{
     font-style: normal;
 }
@@ -86,7 +89,7 @@ header>section>h1{
 }
 
 
-/*navigation Icons*/
+/*navigation Icons----------------------------------------------*/
 .navigateIcon{
     width: 100px;
 }
@@ -104,14 +107,14 @@ header>section>nav>ul>li{
     margin: 0 30px;
 }
 
-/*about me page*/
+/*about me page--------------------------------------------------------------------------------------------*/
 #aboutMePage{
     width: 100%;
     height: 100vh;
     background-position: center;
 }
 
-/*about me page upper section*/
+/*about me page upper section----------------------------------------------*/
 #aboutMePageUp{
     display: flex;
     justify-content: space-between;
@@ -172,7 +175,7 @@ header>section>nav>ul>li{
     margin-top: 10px;
 }
 
-/*about me page down section*/
+/*about me page down section----------------------------------------------*/
 #aboutMePageDown{
     display: flex;
     justify-content: space-between;
@@ -215,7 +218,7 @@ header>section>nav>ul>li{
     border-radius: 20px;
 }
 
-/*skill pane*/
+/*skill pane----------------------------------------------*/
 #skillPane{
     width: 100%;
     height: 46vh;
@@ -313,7 +316,7 @@ header>section>nav>ul>li{
 
 }
 
-/*education pane*/
+/*education pane----------------------------------------------*/
 #educationPane{
     width: 100%;
     height: 46vh;
@@ -397,15 +400,13 @@ header>section>nav>ul>li{
     font-size: 25px;
 }
 
-/*experience pane*/
+/*experience pane----------------------------------------------*/
 #experiencesPane{
     width: 100%;
     height: 46vh;
     background: #242323;
     border-radius: 20px;
-
 }
-
 .redText{
     color: red;
 }
@@ -425,3 +426,122 @@ header>section>nav>ul>li{
     padding: 10px 25px;
     font-size: 25px;
 }
+
+/* service page ------------------------------------------------------------------------------------------------*/
+#servicePage{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+#servicePage>div{
+    width: 100%;
+    height: 20%;
+    position: relative;
+}
+#serPgP1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+#serPgP2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-left: 30px;
+    color: red;
+}
+#servicePage>article{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+}
+#servicePage>article>div{
+    width: 28%;
+    height: 90%;
+    background: #242323;
+    border-radius: 20px;
+
+}
+#servicePage>article>div:first-child{
+    margin-left: 50px;
+}
+#servicePage>article>div:last-child{
+    margin-right: 50px;
+}
+#servicePage>article>div>div{
+    width: 40%;
+    height: 50px;
+    background: red;
+    border-radius: 10px;
+    font-size: 30px;
+}
+#servicePage>article>div>div>p{
+    padding:7px 50px;
+}
+
+/*web design-----------------------------------------------*/
+#servicePage>article>div:first-child>img{
+    margin-top: 30px;
+    margin-left: 160px;
+}
+#webP1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#webP2{
+    font-size: 25px;
+    margin: 50px 30px;
+}
+#servicePage>article>div:first-child>div{
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+
+/*ui-ux design-----------------------------------------------*/
+#servicePage>article>div:nth-child(2)>img{
+    margin-top: 30px;
+    margin-left: 160px;
+}
+#uiP1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+#uiP2{
+    font-size: 25px;
+    margin: 50px 30px;
+}
+#servicePage>article>div:nth-child(2)>div>p{
+    padding:7px 50px;
+}
+#servicePage>article>div:nth-child(2)>div{
+    margin-top: 110px;
+    margin-left: 120px;
+}
+
+/*app design-----------------------------------------------*/
+#servicePage>article>div:last-child>img:first-child{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+#addP1{
+    font-size: 40px;
+    margin-top: 4px;
+    margin-left: 90px;
+}
+#addP2{
+    font-size: 25px;
+    margin: 50px 30px;
+}
+#servicePage>article>div:last-child>div>p{
+    padding:7px 50px;
+}
+#servicePage>article>div:last-child>div{
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
