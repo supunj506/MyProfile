@@ -561,6 +561,7 @@ header>section>nav>ul>li{
     font-size: 50px;
     margin-top: 0;
     margin-left: 30px;
+    margin-bottom: 0;
     color: red;
 }
 #portfolioPage>div{
@@ -568,7 +569,7 @@ header>section>nav>ul>li{
 }
 #portfolioPage>div>nav>div{
     width: 200px;
-    height: 50px;
+    height: 70px;
     background: red;
     border-radius: 13px;
     display: block;
@@ -583,12 +584,16 @@ header>section>nav>ul>li{
     position: absolute;
 }
 #portfolioPage>div>nav>div:first-child>a{
-    margin-top: 7px;
-    margin-left: 40px;
+    padding: 17px 40px;
 }
 #portfolioPage>div>nav>div:last-child>a{
-    margin-top: 7px;
-    margin-left: 20px;
+    padding: 17px 20px;
 }
 
 /*project showing pane-------------------------------------------*/
+#portfolioPage>div>section{
+    width: 81%;
+    height: 83vh;
+    background: #242323;
+    border-radius: 30px;
+}
