@@ -545,3 +545,50 @@ header>section>nav>ul>li{
     margin-left: 120px;
 }
 
+/*portfolio page-------------------------------------------------------------------------------------------------*/
+#portfolioPage{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+#portP1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+#portP2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-left: 30px;
+    color: red;
+}
+#portfolioPage>div{
+    display: flex;
+}
+#portfolioPage>div>nav>div{
+    width: 200px;
+    height: 50px;
+    background: red;
+    border-radius: 13px;
+    display: block;
+    margin: 110px 30px;
+
+
+}
+#portfolioPage>div>nav>div>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+}
+#portfolioPage>div>nav>div:first-child>a{
+    margin-top: 7px;
+    margin-left: 40px;
+}
+#portfolioPage>div>nav>div:last-child>a{
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+/*project showing pane-------------------------------------------*/
