@@ -638,7 +638,6 @@ header>section>nav>ul>li{
 .contactIcon{
     width: 70px;
     height: 70px;
-
 }
 .contactLink{
     display: flex;
@@ -650,7 +649,6 @@ header>section>nav>ul>li{
 .contactLink>p{
     margin-left: 40px;
 }
-
 #contactPage>section>section:first-child>nav>ul>li>a>img{
     width: 70px;
 }
@@ -687,3 +685,39 @@ header>section>nav>ul>li{
     position: absolute;
     padding: 12px 50px;
 }
+
+/*contact page right side----------------------------------------------*/
+#contactPage>section>section:last-child>p{
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 0;
+}
+#contactPage>section>section:last-child>form{
+    margin-left: 40px;
+}
+#contactPage>section>section:last-child>form>input{
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 40px;;
+    font-size: 25px;
+    border-radius: 7px;
+    width: 600px;
+    padding:15px 10px;
+}
+.inputL{
+    height: 200px;
+}
+#contactPage>section>section:last-child>form>button{
+    width: 280px;
+    height: 60px;
+    background: red;
+    border-radius: 13px;
+    margin-left: 190px;
+    margin-top: 5px;
+    font-size: 28px;
+    color: white;
+}
+
+
+
+
