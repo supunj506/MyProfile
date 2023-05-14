@@ -701,7 +701,7 @@ header>section>nav>ul>li{
     margin-bottom: 40px;;
     font-size: 25px;
     border-radius: 7px;
-    width: 600px;
+    width: 700px;
     padding:15px 10px;
 }
 .inputL{
@@ -709,13 +709,29 @@ header>section>nav>ul>li{
 }
 #contactPage>section>section:last-child>form>button{
     width: 280px;
-    height: 60px;
+    height: 63px;
     background: red;
     border-radius: 13px;
     margin-left: 190px;
     margin-top: 5px;
     font-size: 28px;
     color: white;
+}
+
+/*footer content--------------------------------------------------------------------------------------------------------------------*/
+#footer{
+    background: #242323;
+    width: 100%;
+    height: 7vh;
+}
+#footer>div>p{
+    margin-top: 0;
+    padding-top: 5px;
+    padding-left: 580px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    font-size: 13px;
+
 }
 
 
