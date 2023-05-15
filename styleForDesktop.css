@@ -194,21 +194,24 @@ header>section>nav>ul>li{
     border-radius: 13px;
 
 }
-#aboutMePageDown>nav>div>a{
-    text-decoration: none;
+#aboutMePageDown>nav>div>p{
     color: white;
     font-size: 30px;
+    cursor: pointer;
 }
-#btn1>a{
+#btn1>p{
     position: absolute;
-    padding: 8px 65px;
+    margin: 0;
+    padding: 8px 70px;
 }
-#btn2>a{
+#btn2>p{
     position: absolute;
+    margin: 0;
     padding: 8px 33px;
 }
-#btn3>a{
+#btn3>p{
     position: absolute;
+    margin: 0 ;
     padding: 8px  20px;
 }
 #aboutMePageDown>div {
@@ -302,7 +305,7 @@ header>section>nav>ul>li{
     font-size: 30px;
     color: red;
 }
-#skillLastPane>div{
+#skillLastPane{
     margin: 0;
     padding: 10px 25px;
     font-size: 25px;
