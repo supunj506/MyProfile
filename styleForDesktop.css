@@ -468,6 +468,7 @@ header>section>nav>ul>li{
     height: 90%;
     background: #242323;
     border-radius: 20px;
+    transition: background 0.4s,transform 0.4s;
 
 }
 #servicePage>article>div:first-child{
@@ -549,6 +550,14 @@ header>section>nav>ul>li{
 #servicePage>article>div:last-child>div{
     margin-top: 60px;
     margin-left: 120px;
+}
+
+/*adding effect---------------------*/
+#servicePage>article>div:hover{
+    background: #fa3943;
+    /*background: #f02630;*/
+    transform: translateY(-20px);
+
 }
 
 /*portfolio page-------------------------------------------------------------------------------------------------*/
