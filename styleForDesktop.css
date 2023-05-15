@@ -211,22 +211,26 @@ header>section>nav>ul>li{
     position: absolute;
     padding: 8px  20px;
 }
-#aboutMePageDown>div{
+#aboutMePageDown>div {
     width: 80%;
     height: 46vh;
-    background:#242323 ;
+    background: #242323;
     border-radius: 20px;
+}
+.paneAboutMe{
+    display: none;
+}
+.paneAboutMe.active-tab{
+    display: block;
 }
 
 /*skill pane----------------------------------------------*/
-#skillPane{
+#skillPane>div{
     width: 100%;
     height: 46vh;
     background:#242323 ;
     border-radius: 20px;
     display: flex;
-
-
 }
 .vlsPane{
     width: 49.8%;
@@ -237,34 +241,34 @@ header>section>nav>ul>li{
     height: 100%;
     background: white;
 }
-#skillPane>div>div:first-child{
+#skillPane>div>div>div:first-child{
     width: 100%;
     height: 35% ;
 }
-#skillPane>div>div:nth-child(2){
+#skillPane>div>div>div:nth-child(2){
     width: 100%;
     height: 1.3% ;
     background: white;
 }
-#skillPane>div>div:last-child{
+#skillPane>div>div>div:last-child{
     width: 100%;
     height: 63.7% ;
 }
 
-#skillPane>div>div:first-child>p:first-child{
+#skillPane>div>div>div:first-child>p:first-child{
     margin: 0;
     padding-left: 15px;
     padding-top: 10px;
     font-size: 30px;
     color: red;
 }
-#skillPane>div>div:first-child>p:last-child{
+#skillPane>div>div>div:first-child>p:last-child{
     margin: 0;
     padding: 10px 25px;
     font-size: 25px;
 
  }
-#skillPane>div>div:last-child>p:first-child{
+#skillPane>div>div>div:last-child>p:first-child{
     margin: 0;
     padding-left: 15px;
     padding-top: 10px;
@@ -278,38 +282,38 @@ header>section>nav>ul>li{
     font-size: 25px;
 
 }
-#skillPane>div>div:last-child>div{
+#skillPane>div>div>div:last-child>div{
     display: flex;
     margin-left: 30px;
 
 }
-#skillPane>div>div:last-child>div>div{
+#skillPane>div>div>div:last-child>div>div{
 
     display: block;
 }
-#skillPane>div>div:last-child>div>img{
+#skillPane>div>div>div:last-child>div>img{
     width: 80px;
     margin: 10px 20px;
 }
-#skillPane>div:last-child>p:first-child{
+#skillPane>div>div:last-child>p:first-child{
     margin: 0;
     padding-left: 15px;
     padding-top: 10px;
     font-size: 30px;
     color: red;
 }
-#skillLastPane{
+#skillLastPane>div{
     margin: 0;
     padding: 10px 25px;
     font-size: 25px;
 }
-#skillPane>div:last-child>div{
+#skillPane>div>div:last-child>div{
     display: flex;
     margin-left: 40px;
 
 
 }
-#skillPane>div:last-child>div>img{
+#skillPane>div>div:last-child>div>img{
     width: 80px;
     height: 80px;
     padding: 20px 10px;
@@ -317,22 +321,21 @@ header>section>nav>ul>li{
 }
 
 /*education pane----------------------------------------------*/
-#educationPane{
+#educationPane>div{
     width: 100%;
     height: 46vh;
     background: #242323;
     border-radius: 20px;
+    display: flex;
 
 }
-#educationPane{
-    display: flex;
-}
-#educationPane>div:first-child{
+
+#educationPane>div>div:first-child{
     width: 49.8%;
     height: 100%;
 
 }
-#educationPane>div:last-child{
+#educationPane>div>div:last-child{
     width: 49.8%;
     height: 100%;
 
@@ -344,47 +347,47 @@ header>section>nav>ul>li{
     margin-top: 170px;
 
 }
-#educationPane>div:first-child>div:first-child>p:first-child{
+#educationPane>div>div:first-child>div:first-child>p:first-child{
     margin: 0;
     padding-left: 100px;
     padding-top: 160px;
     font-size: 30px;
     color: red;
 }
-#educationPane>div:first-child>div:first-child>p:last-child{
+#educationPane>div>div:first-child>div:first-child>p:last-child{
     margin: 0;
     padding: 10px 25px;
     font-size: 25px;
 }
-#educationPane>div:first-child>div:first-child>p>span{
+#educationPane>div>div:first-child>div:first-child>p>span{
     color: red;
 }
-#educationPane>div:first-child>div:last-child{
+#educationPane>div>div:first-child>div:last-child{
     width:100%;
     height: 1%;
     background: white;
 }
-#educationPane>div:last-child>div:first-child>p:first-child{
+#educationPane>div>div:last-child>div:first-child>p:first-child{
     margin: 0;
     padding-left: 100px;
     padding-top: 25px;
     font-size: 30px;
     color: red;
 }
-#educationPane>div:last-child>div:first-child>p:last-child{
+#educationPane>div>div:last-child>div:first-child>p:last-child{
     margin: 0;
     padding: 10px 25px;
     font-size: 25px;
 }
-#educationPane>div:last-child>div:first-child>p>span{
+#educationPane>div>div:last-child>div:first-child>p>span{
     color: red;
 }
-#educationPane>div:last-child>div:nth-child(2){
+#educationPane>div>div:last-child>div:nth-child(2){
     width: 100%;
     height: 1%;
     background: white;
 }
-#educationPane>div:last-child>div:last-child>img{
+#educationPane>div>div:last-child>div:last-child>img{
     margin-top: 10px;
     margin-left: 100px;
 }
@@ -401,7 +404,7 @@ header>section>nav>ul>li{
 }
 
 /*experience pane----------------------------------------------*/
-#experiencesPane{
+#experiencesPane>div{
     width: 100%;
     height: 46vh;
     background: #242323;
