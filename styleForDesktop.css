@@ -31,6 +31,7 @@ header>nav>img{
     width: 250px;
     margin-top: 15px;
     margin-left: 50px;
+
 }
 header>nav {
     display: flex;
@@ -92,6 +93,13 @@ header>section>h1{
 /*navigation Icons----------------------------------------------*/
 .navigateIcon{
     width: 100px;
+    border-radius: 20px;
+    transition: background 0.4s,transform 0.4s;
+}
+.navigateIcon:hover{
+    background: #FF3773;
+    transform:  translate3d(0px,0px,50px);
+
 }
 header>section>nav{
     padding: 0;
@@ -555,7 +563,7 @@ header>section>nav>ul>li{
 /*adding effect---------------------*/
 #servicePage>article>div:hover{
     background: #fa3943;
-    /*background: #f02630;*/
+    /*background: #FF3773;*/
     transform: translateY(-20px);
 
 }
@@ -711,6 +719,15 @@ header>section>nav>ul>li{
     margin-left: 40px;
 }
 #contactPage>section>section:last-child>form>input{
+    display: block;
+    margin-left: 40px;
+    margin-bottom: 40px;;
+    font-size: 25px;
+    border-radius: 7px;
+    width: 700px;
+    padding:15px 10px;
+}
+#massage{
     display: block;
     margin-left: 40px;
     margin-bottom: 40px;;

@@ -318,7 +318,7 @@
 
                     <input class="inputS" placeholder="Name" type="text">
                     <input class="inputS" placeholder="Email" type="email">
-                    <input class="inputL" placeholder="Comment" type="text">
+                    <textarea name="massage" id="massage"  rows="7" placeholder="Comment" aria-disabled="true" ></textarea>
                     <button type="submit">Submit</button>
                 </form>
             </section>
@@ -339,9 +339,10 @@
 </main>
 
 <script>
-    var tabContents = document.getElementsByClassName("paneAboutMe");
+    let tabContents = document.getElementsByClassName("paneAboutMe");
 
     function openTab(paneName) {
+        let tabContent;
         for (tabContent of tabContents) {
             tabContent.classList.remove("active-tab");
         }
