@@ -1,0 +1,122 @@
+/*
+ * @author : @MJ
+ * Date    : 6/17/2023
+ * Time    : 10:23 PM
+ * Project : MyProfile
+ * Created by IntelliJ IDEA.
+ */
+body {
+    /*background-color: black;*/
+}
+#home_page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+#home_page > header {
+    width: 100%;
+    height: 10%;
+    /*background-color: #ccc1ff;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#home_page > header > img {
+    width: 15%;
+    height: 100%;
+    margin-left: 1%;
+}
+/*--------------------------------------*/
+#home_page > header > nav {
+    width: 50%;
+    height: 100%;
+    /*background-color:white;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home_page > header > nav > ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+#home_page > header > nav > ul > li{
+    display: inline-block;
+}
+#home_page > header > nav > ul > li > a {
+    position: relative;
+    text-decoration: none;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3em;
+    color: white;
+}
+/*_______________animation---------------------------*/
+#home_page > header > nav > ul > li > a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+#home_page > header > nav > ul > li > a:hover::after{
+    width: 100%;
+}
+/*--------------------------------------------------------------------------------------------*/
+#main_content {
+    width: 100%;
+    height: 90%;
+    background-image: url("/asset/image/homepageBackground.png");
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    color: aliceblue;
+    /*background-color: beige;*/
+}
+#main_content > article {
+    margin-left: 7%;
+    margin-top: 7%;
+}
+#main_content > article > h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+#main_content > article > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+}
+.homeTextRed {
+    color: crimson;
+}
+.emphasizeText {
+    font-style: normal;
+}
+
+/*----------------------------------*/
+#main_content > nav {
+    width: 60%;
+    height: 15%;
+    /*background-color: aliceblue;*/
+    margin-left: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#main_content > nav > a > img {
+    width: 65%;
+    height: 100%;
+}

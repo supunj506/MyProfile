@@ -1,5 +1,5 @@
 /*
-    * @author : Supun Jaysinghe
+    * @author : Supun Jayasinghe
     * Date    : 11 March 2023
     * Time    : 10:08 AM
     * Project : MyProfile
@@ -23,7 +23,7 @@ body{
 body header{
     width: 100%;
     height: 100vh;
-    background-image:url("asset/image/homepageBackground.png") ;
+    background-image:url("../image/homepageBackground.png") ;
     background-size: cover;
     background-position: center;
 }
@@ -765,6 +765,8 @@ header>section>nav>ul>li{
     font-size: 13px;
 
 }
+
+/*------------------------------------------------------------------------------------------------------------------*/
 
 
 
