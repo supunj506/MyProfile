@@ -126,4 +126,22 @@ body {
 
 }
 
+/*--------------768px-----------------------*/
 
+@media all and (max-width: 1300px) and (min-width:1024px){
+    /*-------header------------*/
+    #home_page > header {
+        width: 100%;
+        height: 10%;
+    }
+    #home_page > header > nav {
+        width: 60%;
+        height: 100%;
+
+    }
+    #home_page > header > nav > ul > li > a {
+        font-size: 1.2em;
+    }
+    /*-------main-content------------*/
+
+}
