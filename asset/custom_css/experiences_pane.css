@@ -1,0 +1,43 @@
+/*
+ * @author : @MJ
+ * Date    : 6/19/2023
+ * Time    : 2:41 PM
+ * Project : MyProfile
+ * Created by IntelliJ IDEA.
+ */
+#experiencesPane {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.expPaneCont {
+    width: 90%;
+    height:32%;
+    /*background-color: red;*/
+    margin-left: 5%;
+}
+.expPaneBrake {
+    width: 95%;
+    height: 1.5%;
+    background-color: white;
+}
+.expPaneTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.0em;
+    margin-top: 1%;
+    margin-bottom: 0;
+    color: crimson;
+
+}
+.expPaneDescription {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+.expPaneDescription  > span {
+    color: red;
+}
