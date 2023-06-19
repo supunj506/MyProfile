@@ -71,11 +71,13 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.7em;
 }
-
+#aboutMePageUp > article > div:first-child > p > span {
+    color: red;
+}
 #aboutMePageUp > article > div:nth-child(2) {
     width: 20%;
     height: 17%;
-    background-color: crimson;
+    background-color: red;
     border-radius: 1em;
     box-shadow: 5px 6px 8px 1px black;
     display: flex;
@@ -136,11 +138,93 @@
     font-size: 2em;
 }
 
-/*------------------------------------------*/
+/*---------------------------------------------*/
 
 #aboutMePageDown > article {
     width: 80%;
     height: 100%;
+    background-color: #242323;
+    border-radius: 1.5em;
+}
+
+#aboutMePageDown > article > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5em;
+}
+/*---------------skill pane------------------------*/
+
+#skillPane {
+    background-color: gray;
+    display: flex;
+}
+/*-----------------------*/
+#vp1 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*background-color: white;*/
+}
+#vp1 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.skillSubTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+    color: crimson;
+}
+.skillDescription {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    margin: 0;
+
+
+}
+#vp1 > div:first-child {
+    width: 93%;
+    height: 40%;
+    /*background-color: black;*/
+    align-self: flex-end;
 
 }
 
+/*-------------------------*/
+#vp1 > div:nth-child(2) {
+    width: 100%;
+    height: 1.4%;
+    background-color: white;
+}
+/*-------------------------*/
+#vp1 > div:nth-child(3) {
+    width: 100%;
+    height: 58.6%;
+}
+#vp1 > div:nth-child(3) > div {
+    width: 70%;
+    height: 50%;
+    /*background-color: black;*/
+    display: flex;
+    justify-content: space-around;
+}
+#vp1 > div:nth-child(3) > div > img {
+    width: 15%;
+    height: 80%;
+}
+
+/*--------------------------------*/
+#vp_hr {
+    width: 0.5%;
+    height: 100%;
+    background-color: white;
+}
+/*-----------------------*/
+#vp2 {
+    width: 39.5%;
+    height: 100%;
+    /*background-color: white;*/
+}
