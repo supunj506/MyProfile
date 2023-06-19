@@ -152,12 +152,12 @@
     height: 100%;
     border-radius: 1.5em;
 }
-/*---------------skill pane------------------------*/
+/*---------------skill pane--------------------------------------------------------------*/
 
 #skillPane {
-    background-color: gray;
     display: flex;
 }
+
 /*-----------------------*/
 #vp1 {
     width: 60%;
@@ -227,4 +227,24 @@
     width: 39.5%;
     height: 100%;
     /*background-color: white;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
+#vp2 > p:nth-child(2){
+    margin-left: 5%;
+}
+#vp2 > div {
+    width: 95%;
+    height: 50%;
+    /*background-color: black;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#vp2 > div > img {
+    width:20% ;
+    height: 50%;
+}
+
