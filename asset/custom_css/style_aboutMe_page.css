@@ -8,17 +8,19 @@
 #about_me_page {
     width: 100%;
     height: 100vh;
-    background-color: #fa3943;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    color: white;
 }
 /*------------------------title---------------------------*/
 #about_me_page > section:first-child {
     width: 98%;
     height: 8%;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
     display: flex;
     align-items: center
 }
@@ -40,7 +42,52 @@
 #aboutMePageUp {
     width: 95%;
     height: 43%;
-    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*----------------------------*/
+#aboutMePageUp > img {
+    width: 17%;
+    height: 100%;
+    border-radius: 1em;
+}
+/*-----------------------------*/
+#aboutMePageUp > article {
+    width: 82%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#aboutMePageUp > article > div:first-child {
+    width: 95%;
+    height: 75%;
+
+}
+#aboutMePageUp > article > div:first-child > p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+}
+
+#aboutMePageUp > article > div:nth-child(2) {
+    width: 20%;
+    height: 17%;
+    background-color: crimson;
+    border-radius: 1em;
+    box-shadow: 5px 6px 8px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aboutMePageUp > article > div:nth-child(2) > a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 2em;
+
 }
 
 /*------------------------middle brake ---------------------------*/
