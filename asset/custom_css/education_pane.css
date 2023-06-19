@@ -1,0 +1,111 @@
+/*
+ * @author : @MJ
+ * Date    : 6/19/2023
+ * Time    : 1:48 PM
+ * Project : MyProfile
+ * Created by IntelliJ IDEA.
+ */
+#educationPane {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.eduPaneTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+    color: crimson;
+}
+.eduPaneDescription {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    margin: 0;
+}
+#educationPane span {
+    color: red;
+}
+/*----------left div-------------------------------*/
+#leftDiv {
+    width: 49.75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*-------------------*/
+#leftDiv > div:first-child {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#leftDiv > div:first-child > p:first-child {
+    margin-top: 28%;
+    margin-bottom: 3%;
+}
+#leftDiv > div:first-child > p:nth-child(2) {
+    margin-left: 5%;
+}
+/*-------------------*/
+
+#leftDiv > div:nth-child(2) {
+    width: 100%;
+    height: 1.5%;
+    background-color: white;
+}
+
+
+/*----------middle brake-------------------------*/
+#eduPaneMiddleBrake {
+    width: 0.5%;
+    height: 80%;
+    background-color: white;
+    margin-top: 5%;
+}
+/*----------right div----------------------------*/
+#rightDiv {
+    width: 49.75%;
+    height: 100%;
+}
+
+/*--------------------------*/
+#rightDiv > div:first-child {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#rightDiv > div:first-child > p:first-child {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+#rightDiv > div:first-child > p:nth-child(2) {
+    margin-left: 5%;
+}
+
+/*--------------------------*/
+#rightDiv > div:nth-child(2) {
+    width: 100%;
+    height: 1.5%;
+    background-color: white;
+}
+/*--------------------------*/
+#rightDiv > div:nth-child(3) {
+    width: 100%;
+    height: 38.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#rightDiv > div:nth-child(3) > img {
+    width: 60%;
+    height: 40%;
+}
+#rightDiv > div:nth-child(3) > p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+}
