@@ -1,0 +1,444 @@
+/*
+ * @author : @MJ
+ * Date    : 6/19/2023
+ * Time    : 3:17 PM
+ * Project : MyProfile
+ * Created by IntelliJ IDEA.
+ */
+@media all and (min-width:1024px) and (max-width: 1440px){
+    #aboutMePageUp > img {
+        width: 25%;
+        height: 100%;
+        border-radius: 1em;
+    }
+    /*----------------------------------*/
+
+    #aboutMePageUp > article {
+        width: 75%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    #aboutMePageUp > article > div:first-child > p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5em;
+        margin-bottom: 3%;
+        margin-top: 0;
+    }
+
+    /*----------------------------------*/
+    #aboutMePageUp > article > div:nth-child(2) {
+        width: 30%;
+    }
+
+    /*------------------------down section---------------------------*/
+    #aboutMePageDown > nav > div {
+        width: 90%;
+    }
+    #aboutMePageDown > nav > div > p {
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-size:1.65em;
+    }
+
+
+}
+
+
+
+/*--------------1024px 768px-----------------------*/
+
+@media all and (min-width:768px) and (max-width: 1024px){
+    #aboutMePageUp > img {
+        width: 40%;
+        height: 100%;
+        border-radius: 1em;
+    }
+    /*----------------------------------*/
+
+    #aboutMePageUp > article {
+        width: 75%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    #aboutMePageUp > article > div:first-child > p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        margin-bottom: 3%;
+        margin-top: 0;
+    }
+
+    /*----------------------------------*/
+    #aboutMePageUp > article > div:nth-child(2) {
+        width: 40%;
+    }
+    #aboutMePageUp > article > div:nth-child(2) {
+        font-size: 0.8em;
+    }
+
+    /*------------------------down section---------------------------*/
+    #aboutMePageDown > nav > div {
+        width: 100%;
+    }
+    #aboutMePageDown > nav > div > p {
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-size:1.4em;
+    }
+
+}
+
+/*-------------- 768px 425px-----------------------*/
+
+@media all and (min-width:425px) and (max-width: 768px){
+    #about_me_page > section:first-child {
+        width: 98%;
+        height: 8%;
+        /*background-color: aliceblue;*/
+        display: flex;
+        align-items: center
+    }
+    #about_me_page > section:first-child > p {
+        margin-left: 1%;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Rubik', sans-serif;
+        font-size: 2.0em;
+    }
+    #about_me_page > section:first-child > p > span {
+        font-size: 1.2em;
+        align-self: center;
+        color: crimson;
+    }
+
+    #aboutMePageUp {
+        width: 95%;
+        height: 45%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #aboutMePageUp > img {
+        width: 45%;
+        height: 90%;
+        border-radius: 1em;
+    }
+    /*----------------------------------*/
+
+    #aboutMePageUp > article {
+        width: 75%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    #aboutMePageUp > article > div:first-child > p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        margin-bottom: 3%;
+        margin-top: 0;
+    }
+
+    /*----------------------------------*/
+    #aboutMePageUp > article > div:nth-child(2) {
+        width:60%;
+        height: 13%;
+    }
+    #aboutMePageUp > article > div:nth-child(2) {
+        font-size: 0.6em;
+    }
+
+    /*------------------------down section---------------------------*/
+    #aboutMePageDown {
+        width: 95%;
+        height: 43%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #aboutMePageDown > nav {
+        width: 90%;
+        height: 12%;
+        flex-direction: row;
+    }
+    #aboutMePageDown > nav > div {
+        width: 30%;
+        height: 90%;
+        background-color: crimson;
+
+        border-radius: 1em;
+        box-shadow: 5px 6px 8px 1px black;
+        cursor: pointer;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #aboutMePageDown > nav > div > p {
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-size: 1em;
+    }
+
+    /*---------------------------------------------*/
+
+    #aboutMePageDown > article {
+        width: 100%;
+        height: 82%;
+        background-color: #242323;
+        border-radius: 1.5em;
+    }
+
+    #aboutMePageDown > article > div {
+        width: 100%;
+        height: 100%;
+        border-radius: 1.5em;
+    }
+
+}
+
+/*--------------425px 320px-----------------------------------------------------------------------------------------*/
+
+@media all and (min-width:320px) and (max-width: 425px){
+    #about_me_page {
+        width: 100%;
+        height: 150vh;
+        /*background-color: #FF3773;*/
+    }
+    /*------------------------title---------------------------*/
+
+    #about_me_page > section:first-child {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        align-items: center;
+    }
+    #about_me_page > section:first-child > p {
+        font-size: 1.5em;
+        margin-left: 5%;
+    }
+    #about_me_page > section:first-child > p > span {
+        font-size: 1.5em;
+    }
+
+    /*------------------------upper section---------------------------*/
+
+    #aboutMePageUp {
+       width: 100%;
+        height: 61%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /*----------------------------*/
+    #aboutMePageUp > img {
+        width: 80%;
+        height: 45%;
+        border-radius: 1em;
+    }
+    /*-----------------------------*/
+    #aboutMePageUp > article {
+        width: 90%;
+        height: 55%;
+    }
+    #aboutMePageUp > article > div:first-child {
+        width: 100%;
+        height: 80%;
+    }
+    #aboutMePageUp > article > div:first-child > p {
+        font-size: 1.15em;
+    }
+
+    #aboutMePageUp > article > div:nth-child(2) {
+        width: 60%;
+        height: 10%;
+    }
+
+    #aboutMePageUp > article > div:nth-child(2) > a {
+        font-size: 1.3em;
+
+    }
+
+    /*------------------------middle brake ---------------------------*/
+
+    #middle_brake {
+        width: 80%;
+        height: 0.5%;
+        background-color: white;
+
+    }
+
+    /*------------------------down section---------------------------*/
+
+    #aboutMePageDown {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #aboutMePageDown > nav {
+        width: 95%;
+        height: 10%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #aboutMePageDown > nav > div {
+        width: 30%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #aboutMePageDown > nav > div > p {
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-size: 1em;
+    }
+
+    /*!*---------------------------------------------*!*/
+
+    #aboutMePageDown > article {
+        width: 95%;
+        height: 87%;
+        background-color: #242323;
+        border-radius: 1.5em;
+    }
+
+    /*#aboutMePageDown > article > div {*/
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    /*    border-radius: 1.5em;*/
+    /*}*/
+
+
+}
+
+/*--------------------320px------------------------*/
+@media all and (max-width:320px) {
+
+    #about_me_page {
+        width: 100%;
+        height: 150vh;
+        /*background-color: #FF3773;*/
+    }
+    /*------------------------title---------------------------*/
+
+    #about_me_page > section:first-child {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        align-items: center;
+    }
+    #about_me_page > section:first-child > p {
+        font-size: 1.0em;
+        margin-left: 5%;
+    }
+    #about_me_page > section:first-child > p > span {
+        font-size: 1.2em;
+    }
+
+    /*------------------------upper section---------------------------*/
+
+    #aboutMePageUp {
+        width: 100%;
+        height: 61%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /*----------------------------*/
+    #aboutMePageUp > img {
+        width: 80%;
+        height: 40%;
+        border-radius: 1em;
+    }
+    /*-----------------------------*/
+    #aboutMePageUp > article {
+        width: 90%;
+        height: 65%;
+    }
+    #aboutMePageUp > article > div:first-child {
+        width: 100%;
+        height: 80%;
+    }
+    #aboutMePageUp > article > div:first-child > p {
+        font-size: 0.7em;
+    }
+
+    #aboutMePageUp > article > div:nth-child(2) {
+        width: 60%;
+        height: 7%;
+    }
+
+    #aboutMePageUp > article > div:nth-child(2) > a {
+        font-size: .8em;
+
+    }
+
+    /*------------------------middle brake ---------------------------*/
+
+    #middle_brake {
+        width: 80%;
+        height: 0.2%;
+        background-color: white;
+
+    }
+
+    /*------------------------down section---------------------------*/
+
+    #aboutMePageDown {
+        width: 100%;
+        height: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #aboutMePageDown > nav {
+        width: 95%;
+        height: 10%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #aboutMePageDown > nav > div {
+        width: 30%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #aboutMePageDown > nav > div > p {
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        font-size: .5em;
+    }
+
+    /*!*---------------------------------------------*!*/
+
+    #aboutMePageDown > article {
+        width: 95%;
+        height: 87%;
+        background-color: #242323;
+        border-radius: 1.5em;
+    }
+
+}
