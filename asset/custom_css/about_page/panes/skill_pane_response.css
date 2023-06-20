@@ -1,0 +1,248 @@
+/*
+ * @author : @MJ
+ * Date    : 6/20/2023
+ * Time    : 2:51 PM
+ * Project : MyProfile
+ * Created by IntelliJ IDEA.
+ */
+
+/*--------------1044px 1024px-------------------------------------------------------------*/
+@media all and (min-width:1024px) and (max-width: 1440px) {
+}
+
+
+/*--------------1024px 768px--------------------------------------------------------------*/
+@media all and (min-width:768px) and (max-width: 1024px) {
+    .skillSubTitle {
+        font-size: 2.2em;
+    }
+    .skillDescription {
+        font-size: 1.5em;
+    }
+    #vp1 > div:nth-child(3) > div > img {
+        width: 20%;
+        height: 70%;
+    }
+    #vp2 > div > img {
+        width:20% ;
+        height: 35%;
+    }
+
+}
+
+
+/*-------------- 768px 425px--------------------------------------------------------------*/
+@media all and (min-width:425px) and (max-width: 768px) {
+
+    .skillSubTitle {
+        font-size: 1.7em;
+    }
+    .skillDescription {
+        font-size: 1.1em;
+    }
+    #vp1 > div:nth-child(3) > div > img {
+        width: 20%;
+        height: 70%;
+    }
+    #vp2 > div > img {
+        width:20% ;
+        height: 35%;
+    }
+
+}
+
+
+/*--------------425px 320px---------------------------------------------------------------*/
+@media all and (min-width:320px) and (max-width: 425px) {
+    #skillPane {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /*-----------------------*/
+    #vp1 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    #vp1 > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .skillSubTitle {
+        font-size: 1.8em;
+        margin: 0;
+        color: crimson;
+    }
+    .skillDescription {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        margin: 0;
+    }
+    #vp1 > div:first-child {
+        width: 93%;
+        height: 40%;
+        /*background-color: black;*/
+        align-self: flex-end;
+
+    }
+
+    /*-------------------------*/
+    #vp1 > div:nth-child(2) {
+        width: 80%;
+        height: 2%;
+        background-color: white;
+        align-self: center;
+    }
+    /*-------------------------*/
+    #vp1 > div:nth-child(3) {
+        width: 100%;
+        height: 58.6%;
+    }
+    #vp1 > div:nth-child(3) > div {
+        width: 70%;
+        height: 50%;
+        /*background-color: black;*/
+        display: flex;
+        justify-content: space-around;
+    }
+    #vp1 > div:nth-child(3) > div > img {
+        width: 15%;
+        height: 80%;
+    }
+
+    /*--------------------------------*/
+    #vp_hr {
+        width: 80%;
+        height: 1%;
+        background-color: white;
+    }
+    /*-----------------------*/
+    #vp2 {
+        width: 100%;
+        height: 39%;
+        /*background-color: red;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #vp2 > p:nth-child(2){
+        margin-left: 5%;
+    }
+    #vp2 > div {
+        width: 95%;
+        height: 50%;
+        /*background-color: black;*/
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #vp2 > div > img {
+        width:20% ;
+        height: 50%;
+    }
+}
+
+
+/*--------------------320px---------------------------------------------------------------*/
+@media all and (max-width:320px) {
+    #skillPane {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /*-----------------------*/
+    #vp1 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    #vp1 > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .skillSubTitle {
+        font-size: 1.0em;
+        margin: 0;
+        color: crimson;
+    }
+    .skillDescription {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.7em;
+        margin: 0;
+    }
+    #vp1 > div:first-child {
+        width: 93%;
+        height: 40%;
+        /*background-color: black;*/
+        align-self: flex-end;
+
+    }
+
+    /*-------------------------*/
+    #vp1 > div:nth-child(2) {
+        width: 80%;
+        height: 2%;
+        background-color: white;
+        align-self: center;
+    }
+    /*-------------------------*/
+    #vp1 > div:nth-child(3) {
+        width: 100%;
+        height: 58.6%;
+    }
+    #vp1 > div:nth-child(3) > div {
+        width: 70%;
+        height: 50%;
+        /*background-color: black;*/
+        display: flex;
+        justify-content: space-around;
+    }
+    #vp1 > div:nth-child(3) > div > img {
+        width: 15%;
+        height: 80%;
+    }
+
+    /*--------------------------------*/
+    #vp_hr {
+        width: 80%;
+        height: 1%;
+        background-color: white;
+    }
+    /*-----------------------*/
+    #vp2 {
+        width: 100%;
+        height: 39%;
+        /*background-color: red;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #vp2 > p:nth-child(2){
+        margin-left: 5%;
+    }
+    #vp2 > div {
+        width: 95%;
+        height: 50%;
+        /*background-color: black;*/
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #vp2 > div > img {
+        width:20% ;
+        height: 50%;
+    }
+}
