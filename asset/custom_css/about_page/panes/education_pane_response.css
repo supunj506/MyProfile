@@ -13,20 +13,119 @@
 
 /*--------------1024px 768px--------------------------------------------------------------*/
 @media all and (min-width:768px) and (max-width: 1024px) {
+    .eduPaneTitle {
+        font-size: 2.2em;
+
+    }
+    .eduPaneDescription {
+        font-size: 1.5em;
+    }
 }
 
 
 /*-------------- 768px 425px--------------------------------------------------------------*/
 @media all and (min-width:425px) and (max-width: 768px) {
+    .eduPaneTitle {
+        font-size: 1.7em;
 
+    }
+    .eduPaneDescription {
+        font-size: 1.1em;
+    }
+    #rightDiv > div:nth-child(3) > p {
+        font-size: 1.1em;
+    }
 }
 
 
 /*--------------425px 320px---------------------------------------------------------------*/
 @media all and (min-width:320px) and (max-width: 425px) {
+    #educationPane {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .eduPaneTitle {
+        font-size: 1.8em;
+
+    }
+    .eduPaneDescription {
+        font-size: 1.5em;
+    }
+    #rightDiv > div:nth-child(3) > p {
+        font-size: 1.1em;
+    }
+
+    #leftDiv {
+        width: 90%;
+        height: 30%;
+        /*background-color: #fdf0ff;*/
+    }
+
+    /*----------middle brake-------------------------*/
+    #eduPaneMiddleBrake {
+        width: 90%;
+        height: 1%;
+        background-color: white;
+        /*margin-top: %;*/
+    }
+    /*----------right div----------------------------*/
+    #rightDiv {
+        width: 90%;
+        height: 69%;
+        /*background-color: #fdf0ff;*/
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
 }
 
 
 /*--------------------320px---------------------------------------------------------------*/
 @media all and (max-width:320px) {
+    #educationPane {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .eduPaneTitle {
+        font-size: 1.0em;
+
+    }
+    .eduPaneDescription {
+        font-size: 0.8em;
+    }
+    #rightDiv > div:nth-child(3) > p {
+        font-size: 1.0em;
+    }
+
+    #leftDiv {
+        width: 90%;
+        height: 30%;
+        /*background-color: #fdf0ff;*/
+    }
+
+    /*----------middle brake-------------------------*/
+    #eduPaneMiddleBrake {
+        width: 90%;
+        height: 1%;
+        background-color: white;
+        /*margin-top: %;*/
+    }
+    /*----------right div----------------------------*/
+    #rightDiv {
+        width: 90%;
+        height: 69%;
+        /*background-color: #fdf0ff;*/
+        display: flex;
+        flex-direction: column;
+
+    }
+
 }
