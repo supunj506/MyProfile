@@ -105,8 +105,8 @@
         height: 58.6%;
     }
     #vp1 > div:nth-child(3) > div {
-        width: 70%;
-        height: 50%;
+        width: 90%;
+        height: 40%;
         /*background-color: black;*/
         display: flex;
         justify-content: space-around;
