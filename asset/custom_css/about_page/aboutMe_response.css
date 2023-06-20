@@ -213,8 +213,7 @@
 @media all and (min-width:320px) and (max-width: 425px){
     #about_me_page {
         width: 100%;
-        height: 150vh;
-        /*background-color: #FF3773;*/
+        height: 200vh;
     }
     /*------------------------title---------------------------*/
 
@@ -236,29 +235,31 @@
 
     #aboutMePageUp {
        width: 100%;
-        height: 61%;
+        height: 60%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+        justify-content: unset;
     }
     /*----------------------------*/
     #aboutMePageUp > img {
-        width: 80%;
-        height: 45%;
+        width: 70%;
+        height: 40%;
         border-radius: 1em;
+        position: relative;
     }
     /*-----------------------------*/
     #aboutMePageUp > article {
         width: 90%;
-        height: 55%;
+        height: 60%;
     }
     #aboutMePageUp > article > div:first-child {
         width: 100%;
         height: 80%;
     }
     #aboutMePageUp > article > div:first-child > p {
-        font-size: 1.15em;
+        font-size: 1.3em;
+        margin-top: 5%;
+        margin-bottom: 0;
     }
 
     #aboutMePageUp > article > div:nth-child(2) {
@@ -284,7 +285,7 @@
 
     #aboutMePageDown {
         width: 100%;
-        height: 35%;
+        height: 50%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -292,7 +293,7 @@
     }
     #aboutMePageDown > nav {
         width: 95%;
-        height: 10%;
+        height: 6%;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -314,8 +315,8 @@
     /*!*---------------------------------------------*!*/
 
     #aboutMePageDown > article {
-        width: 95%;
-        height: 87%;
+        width: 93%;
+        height: 90%;
         background-color: #242323;
         border-radius: 1.5em;
     }
@@ -362,6 +363,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+
     }
     /*----------------------------*/
     #aboutMePageUp > img {
