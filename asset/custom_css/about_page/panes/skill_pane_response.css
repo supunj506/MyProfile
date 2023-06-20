@@ -54,7 +54,7 @@
 
 /*--------------425px 320px---------------------------------------------------------------*/
 @media all and (min-width:320px) and (max-width: 425px) {
-    #skillPane {
+    #skillPane > div {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -152,7 +152,7 @@
 
 /*--------------------320px---------------------------------------------------------------*/
 @media all and (max-width:320px) {
-    #skillPane {
+    #skillPane > div {
         display: flex;
         flex-direction: column;
         justify-content: space-around;

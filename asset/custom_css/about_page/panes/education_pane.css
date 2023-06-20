@@ -5,11 +5,13 @@
  * Project : MyProfile
  * Created by IntelliJ IDEA.
  */
-#educationPane {
+
+#educationPane > div {
     width: 100%;
     height: 100%;
     display: flex;
 }
+
 .eduPaneTitle {
     font-family: 'Roboto', sans-serif;
     font-size: 2.5em;

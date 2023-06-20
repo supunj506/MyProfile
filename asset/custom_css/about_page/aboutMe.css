@@ -5,6 +5,12 @@
  * Project : MyProfile
  * Created by IntelliJ IDEA.
  */
+.paneAboutMe{
+    display: none;
+}
+.paneAboutMe.active-tab{
+    display: block;
+}
 #about_me_page {
     width: 100%;
     height: 100vh;
@@ -152,3 +158,8 @@
     height: 100%;
     border-radius: 1.5em;
 }
+
+
+/*-------------script----------------------------------*/
+
+
