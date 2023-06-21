@@ -1,0 +1,113 @@
+/*
+ * @author : @MJ
+ * Date    : 6/21/2023
+ * Time    : 2:09 PM
+ * Project : MyProfile
+ * Created by IntelliJ IDEA.
+ */
+#services_page {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+/*------------------------title---------------------------*/
+#services_page > section {
+    width: 98%;
+    height: 8%;
+    /*background-color: aliceblue;*/
+    display: flex;
+    align-items: center
+}
+#services_page > section > p {
+    margin-left: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5em;
+}
+#services_page > section > p > span {
+    font-size: 1.5em;
+    align-self: center;
+    color: crimson;
+}
+
+/*------------------------article---------------------------*/
+#services_page > article {
+    width: 100%;
+    height: 92%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicesDiv {
+    width: 28%;
+    height: 85%;
+    background-color: #242323;
+    border-radius: 1.5em;
+
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    align-items: center;
+    position: relative;
+
+    transition: background 0.4s,transform 0.4s;
+}
+.servicesDiv:hover {
+    background: #fa3943;
+    /*background: #FF3773;*/
+    transform: translateY(-20px);
+}
+
+
+
+.servicesDiv > img {
+    width: 25%;
+    margin-top: 8%;
+}
+
+.serviceDivTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    margin-top: 10%;
+    margin-bottom: 0;
+    /*color: crimson;*/
+}
+.serviceDivDesc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    margin: 10%;
+}
+
+.servicesDiv > div {
+    width: 35%;
+    height: 8%;
+    background-color: crimson;
+    border-radius: 0.8em;
+    box-shadow: 5px 6px 8px 1px black;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 10%;
+}
+#services_page > article > div:nth-child(3) > div {
+    top: 5%;
+}
+
+.servicesDiv > div > p {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 2em;
+
+}
+
