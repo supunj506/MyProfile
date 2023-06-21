@@ -1,0 +1,92 @@
+/*
+ * @author : @MJ
+ * Date    : 6/21/2023
+ * Time    : 5:48 PM
+ * Project : MyProfile
+ * Created by IntelliJ IDEA.
+ */
+#project_page {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: white;
+}
+
+/*------------------------title---------------------------*/
+
+#project_page > section:first-child {
+    width: 98%;
+    height: 8%;
+    /*background-color: aliceblue;*/
+    display: flex;
+    align-items: center
+}
+
+#project_page > section:first-child > p {
+    margin-left: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5em;
+}
+#project_page > section:first-child > p > span {
+    font-size: 1.5em;
+    align-self: center;
+    color: crimson;
+}
+
+/*------------------------main content---------------------------*/
+#project_page > section:nth-child(2) {
+    width: 100%;
+    height: 92%;
+    /*background-color: white;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*------------------------main content button---------------------------*/
+#project_page > section:nth-child(2) > nav {
+    width: 20%;
+    height: 50%;
+    /*background-color: #242323;*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#project_page > section:nth-child(2) > nav > div {
+    width: 100%;
+    height: 25%;
+    background-color: crimson;
+    border-radius: 0.8em;
+    box-shadow: 5px 6px 8px 1px black;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#project_page > section:nth-child(2) > nav > div > p {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 2.5em;
+}
+
+/*------------------------main content pane---------------------------*/
+
+#projectPane {
+    width: 70%;
+    height: 90%;
+    background-color: #242323;
+    border-radius: 2em;
+}
+
+
+
+
