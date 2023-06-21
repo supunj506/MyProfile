@@ -1,0 +1,189 @@
+/*
+ * @author : @MJ
+ * Date    : 6/21/2023
+ * Time    : 2:56 PM
+ * Project : MyProfile
+ * Created by IntelliJ IDEA.
+ */
+
+/*--------------1044px 1024px-------------------------------------------------------------*/
+@media all and (min-width:1024px) and (max-width: 1440px) {
+}
+
+
+/*--------------1024px 768px--------------------------------------------------------------*/
+@media all and (min-width:768px) and (max-width: 1024px) {
+    .serviceDivTitle {
+        font-size: 2.2em;
+    }
+    .serviceDivDesc {
+        font-size: 1.5em;
+    }
+    .servicesDiv > div {
+        width: 50%;
+    }
+    .servicesDiv > div > p {
+        font-size: 1.8em;
+    }
+
+}
+
+
+/*-------------- 768px 425px--------------------------------------------------------------*/
+@media all and (min-width:425px) and (max-width: 768px) {
+    #services_page > section > p {
+        font-size: 2.1em;
+    }
+    #services_page > section > p > span {
+        font-size: 1.2em;
+    }
+    #services_page > article  {
+        width: 95%;
+        height: 95%;
+        align-self: flex-end;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns:  1fr 1fr;
+    }
+    .servicesDiv {
+        width: 90%;
+        height: 95%;
+        margin:0;
+    }
+    .servicesDiv > img {
+        width: 22%;
+        margin-top: 8%;
+    }
+
+    .serviceDivTitle {
+        font-size: 1.7em;
+    }
+    .serviceDivDesc {
+        font-size: 1.1em;
+    }
+    .servicesDiv > div {
+        width: 50%;
+        margin: 0;
+    }
+    .servicesDiv > div > p {
+        font-size: 1.3em;
+    }
+
+    #services_page > article > div:nth-child(3) {
+        position: relative;
+        left: 50%;
+    }
+
+}
+
+
+/*--------------425px 320px---------------------------------------------------------------*/
+@media all and (min-width:320px) and (max-width: 425px) {
+
+    #services_page {
+        width: 100%;
+        height: 170vh;
+    }
+    #services_page > section {
+        width: 100%;
+        height: 5%;
+    }
+    #services_page > section > p {
+        font-size: 1.5em;
+    }
+    #services_page > section > p > span {
+        font-size: 1.2em;
+    }
+    #services_page > article  {
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .servicesDiv {
+        width: 90%;
+        height: 32%;
+        margin:0;
+    }
+    .servicesDiv > img {
+        width: 22%;
+        margin-top: 8%;
+    }
+
+    .serviceDivTitle {
+        font-size: 1.8em;
+
+    }
+    .serviceDivDesc {
+        font-size: 1.3em;
+        margin: 7%;
+
+    }
+    .servicesDiv > div {
+        width: 50%;
+        margin: 0;
+    }
+    .servicesDiv > div > p {
+        font-size: 1.5em;
+    }
+
+
+}
+
+
+/*--------------------320px---------------------------------------------------------------*/
+@media all and (max-width:320px) {
+    #services_page {
+        width: 100%;
+        height: 170vh;
+    }
+    #services_page > section {
+        width: 100%;
+        height: 5%;
+    }
+    #services_page > section > p {
+        font-size: 0.8em;
+    }
+    #services_page > section > p > span {
+        font-size: 1.4em;
+    }
+    #services_page > article  {
+        width: 95%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .servicesDiv {
+        width: 90%;
+        height: 32%;
+        margin:0;
+    }
+    .servicesDiv > img {
+        width: 22%;
+        margin-top: 8%;
+    }
+
+    .serviceDivTitle {
+        font-size: 1.0em;
+
+    }
+    .serviceDivDesc {
+        font-size: 0.7em;
+        margin: 7%;
+
+    }
+    .servicesDiv > div {
+        width: 50%;
+        margin: 0;
+    }
+    .servicesDiv > div > p {
+        font-size: 1.0em;
+    }
+
+}
