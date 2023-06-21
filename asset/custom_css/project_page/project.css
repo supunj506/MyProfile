@@ -62,7 +62,7 @@
 }
 #project_page > section:nth-child(2) > nav > div {
     width: 100%;
-    height: 25%;
+    height: 22%;
     background-color: crimson;
     border-radius: 0.8em;
     box-shadow: 5px 6px 8px 1px black;
@@ -75,7 +75,7 @@
 #project_page > section:nth-child(2) > nav > div > p {
     font-family: 'Rubik', sans-serif;
     color: white;
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 /*------------------------main content pane---------------------------*/
