@@ -5,3 +5,487 @@
  * Project : MyProfile
  * Created by IntelliJ IDEA.
  */
+
+/*--------------1044px 1024px-------------------------------------------------------------*/
+@media all and (min-width:1024px) and (max-width: 1440px) {
+    #contactPageLeft > div:first-child > div > p {
+        font-size: 1.7em;
+        margin-left: 8%;
+    }
+    #contactPageLeft > div:first-child > div > img {
+        height: 50%;
+    }
+}
+
+
+/*--------------1024px 768px--------------------------------------------------------------*/
+@media all and (min-width:768px) and (max-width: 1024px) {
+    /*------------------------title---------------------------*/
+    #contact_page > section:first-child > p {
+        margin-left: 1%;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Rubik', sans-serif;
+        font-size: 2.3em;
+    }
+    /*--------------------------------*/
+
+    #contact_page > section:first-child > p > span {
+        font-size: 1.3em;
+        align-self: center;
+        color: crimson;
+    }
+
+    #contactPageLeft > div:first-child > div > p {
+        font-size: 1.4em;
+        margin-left: 5%;
+    }
+    #contactPageLeft > div:first-child > div > img {
+        width: 20%;
+        height: 50%;
+        margin:0;
+    }
+    #contactPageLeft > nav img {
+        width: 80%;
+    }
+    #contactPageLeft > div:last-child > a {
+        font-size: 1.5em;
+    }
+    /*--------------------------------*/
+    #contactPageRight > p {
+        font-size: 1.7em;
+
+    }
+
+    #contactPageRight > form > button {
+        font-size: 1.7em;
+        margin-top: 28%;
+    }
+
+}
+
+
+/*-------------- 768px 425px--------------------------------------------------------------*/
+@media all and (min-width:425px) and (max-width: 768px) {
+    #contact_page {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        color: white;
+    }
+
+    #contact_page > section:first-child > p {
+        font-size: 2.0em;
+    }
+
+    #contact_page > section:first-child > p > span {
+        font-size: 1.5em;
+    }
+    /*------------------------main content---------------------------*/
+    #contact_page > section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /*----------------------left section------------------------*/
+    #contactPageLeft {
+        width: 95%;
+        height: 45%;
+    }
+    /*------------------------------*/
+
+    #contactPageLeft > div:first-child {
+        width: 95%;
+        height: 45%;
+
+    }
+    #contactPageLeft > div:first-child > div {
+        width: 100%;
+        height: 48%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*background-color: aqua;*/
+    }
+    #contactPageLeft > div:first-child > div > p {
+        font-size: 1.6em;
+        margin-left: 5%;
+    }
+    #contactPageLeft > div:first-child > div > img {
+        width: 13%;
+        height: 80%;
+        margin: 0;
+    }
+
+    /*------------------------------*/
+
+    #contactPageLeft > nav {
+        width: 95%;
+        height: 30%;
+    }
+    /*------------------------------*/
+
+    #contactPageLeft > div:last-child {
+        width: 50%;
+        height: 18%;
+    }
+    #contactPageLeft > div:last-child > a {
+        font-size: 1.5em;
+    }
+
+    /*----------------------middle brake------------------------*/
+    #contactPageMiddleBrake {
+        width: 80%;
+        height: 1%;
+        background-color: white;
+    }
+
+    /*----------------------right section------------------------*/
+    #contactPageRight {
+        width: 95%;
+        height: 50%;
+        /*background-color: aqua;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #contactPageRight > p {
+        width: 80%;
+        height: 15%;
+        margin: 0;
+        font-size: 1.5em;
+        text-align: center;
+
+    }
+
+    #contactPageRight > form {
+        width: 90%;
+        height: 80%;
+        /*background-color: #fa3943;*/
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #contactPageRight > form > textarea {
+        width: 100%;
+        height: 40%;
+        border-radius: 0.5em;
+        margin: 0;
+        font-size: 1.0em;
+    }
+    .inputS {
+        width: 100%;
+        height: 13%;
+        border-radius: 0.5em;
+        margin: 0;
+        font-size: 1.0em;
+    }
+
+
+    #contactPageRight > form > button {
+        width: 50%;
+        height: 15%;
+        font-size: 1.2em;
+        cursor: pointer;
+
+    }
+
+
+
+
+
+    footer > p {
+        margin: 0;
+        font-size: 0.7em;
+    }
+
+}
+
+
+/*--------------425px 320px---------------------------------------------------------------*/
+@media all and (min-width:320px) and (max-width: 425px) {
+    #contact_page {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        color: white;
+    }
+
+    #contact_page > section:first-child > p {
+        font-size: 1.5em;
+    }
+
+    #contact_page > section:first-child > p > span {
+        font-size: 1.3em;
+    }
+    /*------------------------main content---------------------------*/
+    #contact_page > section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /*----------------------left section------------------------*/
+    #contactPageLeft {
+        width: 95%;
+        height: 45%;
+    }
+    /*------------------------------*/
+
+    #contactPageLeft > div:first-child {
+        width: 95%;
+        height: 45%;
+
+    }
+    #contactPageLeft > div:first-child > div {
+        width: 100%;
+        height: 48%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*background-color: aqua;*/
+    }
+    #contactPageLeft > div:first-child > div > p {
+        font-size: 1.2em;
+        margin-left: 5%;
+    }
+    #contactPageLeft > div:first-child > div > img {
+        width: 13%;
+        height: 80%;
+        margin: 0;
+    }
+
+    /*------------------------------*/
+
+    #contactPageLeft > nav {
+        width: 95%;
+        height: 30%;
+    }
+    /*------------------------------*/
+
+    #contactPageLeft > div:last-child {
+        width: 50%;
+        height: 18%;
+    }
+    #contactPageLeft > div:last-child > a {
+        font-size: 1.2em;
+    }
+
+    /*----------------------middle brake------------------------*/
+    #contactPageMiddleBrake {
+        width: 80%;
+        height: 1%;
+        background-color: white;
+    }
+
+    /*----------------------right section------------------------*/
+    #contactPageRight {
+        width: 95%;
+        height: 50%;
+        /*background-color: aqua;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #contactPageRight > p {
+        width: 80%;
+        height: 15%;
+        margin: 0;
+        font-size: 1.0em;
+        text-align: center;
+
+    }
+
+    #contactPageRight > form {
+        width: 90%;
+        height: 80%;
+        /*background-color: #fa3943;*/
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #contactPageRight > form > textarea {
+        width: 100%;
+        height: 40%;
+        border-radius: 0.5em;
+        margin: 0;
+        font-size: 1.0em;
+    }
+    .inputS {
+        width: 100%;
+        height: 13%;
+        border-radius: 0.5em;
+        margin: 0;
+        font-size: 1.0em;
+    }
+
+
+    #contactPageRight > form > button {
+        width: 50%;
+        height: 15%;
+        font-size: 1.2em;
+        cursor: pointer;
+
+    }
+
+
+
+
+
+    footer > p {
+        margin: 0;
+        font-size: 0.7em;
+    }
+}
+
+
+/*--------------------320px---------------------------------------------------------------*/
+@media all and (max-width:320px) {
+    #contact_page {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        color: white;
+    }
+
+    #contact_page > section:first-child > p {
+        font-size: 1.0em;
+    }
+
+    #contact_page > section:first-child > p > span {
+        font-size: 1.5em;
+    }
+    /*------------------------main content---------------------------*/
+    #contact_page > section:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /*----------------------left section------------------------*/
+    #contactPageLeft {
+        width: 95%;
+        height: 45%;
+    }
+    /*------------------------------*/
+
+    #contactPageLeft > div:first-child {
+        width: 95%;
+        height: 45%;
+
+    }
+    #contactPageLeft > div:first-child > div {
+        width: 100%;
+        height: 48%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*background-color: aqua;*/
+    }
+    #contactPageLeft > div:first-child > div > p {
+        font-size: 0.8em;
+        margin-left: 5%;
+    }
+    #contactPageLeft > div:first-child > div > img {
+        width: 13%;
+        height: 80%;
+        margin: 0;
+    }
+
+    /*------------------------------*/
+
+    #contactPageLeft > nav {
+        width: 95%;
+        height: 30%;
+    }
+    /*------------------------------*/
+
+    #contactPageLeft > div:last-child {
+        width: 50%;
+        height: 18%;
+    }
+    #contactPageLeft > div:last-child > a {
+        font-size: 0.8em;
+    }
+
+    /*----------------------middle brake------------------------*/
+    #contactPageMiddleBrake {
+        width: 80%;
+        height: 1%;
+        background-color: white;
+    }
+
+    /*----------------------right section------------------------*/
+    #contactPageRight {
+        width: 95%;
+        height: 50%;
+        /*background-color: aqua;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #contactPageRight > p {
+        width: 80%;
+        height: 15%;
+        margin: 0;
+        font-size: 0.7em;
+        text-align: center;
+
+    }
+
+    #contactPageRight > form {
+        width: 90%;
+        height: 80%;
+        /*background-color: #fa3943;*/
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #contactPageRight > form > textarea {
+        width: 100%;
+        height: 40%;
+        border-radius: 0.5em;
+        margin: 0;
+        font-size: 0.7em;
+    }
+    .inputS {
+        width: 100%;
+        height: 13%;
+        border-radius: 0.5em;
+        margin: 0;
+        font-size:  0.7em;
+    }
+
+
+    #contactPageRight > form > button {
+        width: 50%;
+        height: 15%;
+        font-size: 0.7em;
+        cursor: pointer;
+
+    }
+
+    footer > p {
+        margin: 0;
+        font-size: 0.3em;
+    }
+}
